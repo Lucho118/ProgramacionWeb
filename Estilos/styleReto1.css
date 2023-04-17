@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    width: 1140px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+nav{
+    display: flex;
+    padding: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 70px;
+    float: left;
+    display: flex;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+nav li a:hover {
+	color:hsl(5, 85%, 63%)
+}
+
+#Contenido{
+    display: flex;
+}
+
+#ImgPrincipal{
+    width: 750px;
+}
+
+#Principal{
+    display: flex;
+    margin-top: 25px;
+    width: 750px;
+}
+
+#info1{
+    width: 50%;
+    margin-right: 50px;
+}
+
+h1{
+    font-size:60px;
+}
+
+#info2{
+    width: 50%;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+#texto{
+    color: hsl(236, 13%, 42%);
+}
+
+#boton{
+    background-color: hsl(5, 85%, 63%);
+    font-size: 15px;
+    color: hsl(36, 100%, 99%);
+    width: 150px;
+    margin-top: 90px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#boton:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+
+.Secundario{
+    background-color: hsl(240, 100%, 5%);
+    margin-left: 30px;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    width: 420px;
+}
+
+#Titulo{
+    color:hsl(35, 77%, 62%) ;
+    margin-bottom: 20px;
+}
+
+.Subtitulo{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Subtitulo:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+p{
+    margin-top: 10px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: hsl(236, 13%, 42%);
+    padding-bottom: 20px;
+    color: hsl(233, 8%, 79%);
+}
+
+#PiePagina{
+    display: flex;
+    margin-top: 50px;
+}
+
+.ContPie{
+    display: flex;
+    margin-right: 10px;
+}
+
+.ImgPie{
+    height: 120px;
+    margin-right: 20px;
+}
+
+.Numero{
+    font-size: 30px;
+    color: hsl(233, 8%, 79%);
+}
+
+.SubPie{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+}
+
+.ParPie{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+}
