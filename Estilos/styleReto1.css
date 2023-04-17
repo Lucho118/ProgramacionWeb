@@ -150,6 +150,10 @@ p{
     margin-bottom: 10px ;
 }
 
+.SubPie:hover{
+    color:hsl(5, 85%, 63%) ;
+}
+
 .ParPie{
     margin: 0px;
     border: 0px;
