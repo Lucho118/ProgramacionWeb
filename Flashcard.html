@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Estilos/stylePortafolio.css">
-    <title>Portafolio</title>
+    <link rel="stylesheet" href="./Estilos/styleFlashCard.css">
+    <title>FlashCard</title>
 </head>
 <body>
     <header>
@@ -24,25 +24,20 @@
             
         </div>        
     </header>
-
-    <div class="Contenido">
-        <div id="Presentacion">
-            <h1>Luis Enrique Perdigon Restrepo</h1>
-            <p>Estudiante de ingenieria informatica en la universidad de envigado, 
-                cursando actualmente el sexto semestre.</p>
-            <p>
-                Me considero una persona responsable, ordenado, puntal, atento y con buena disposicion.
-            </p>
+    <section class="flashcard">
+        <div class="tarjetas active" id="PYTHON">        
+            <img src="./Imagenes/python.png" alt="python" class="Lenguaje">                
         </div>
-        <img src="./Imagenes/Foto1.jpg" alt="Foto" class="Foto">
-    </div>
-
-    <div class="Contacto">
-        <h2>Contacto</h2>
-        <div id="Informacion">
-            <p>Correo:  leperdigon@correo.iue.edu.co</p>
-            <p>Celular: 311 381 9579</p>
+        <div class="tarjetas active" id="JAVA">
+            <img src="./Imagenes/Java.png" alt="java" class="Lenguaje">              
         </div>
-    </div>
+        <div class="tarjetas active" id="JAVASCRIPT" >
+            <img src="./Imagenes/javascript.png" alt="javascript" class="Lenguaje">               
+        </div>
+        <div class="tarjetas active" id="C">
+            <img src="./Imagenes/C.png" alt="C" class="Lenguaje">               
+        </div>
+    </section>
+    <script src="./flashCard.js"></script>
 </body>
 </html>
