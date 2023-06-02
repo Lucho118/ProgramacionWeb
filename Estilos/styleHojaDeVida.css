@@ -35,6 +35,11 @@ header{
     border-radius: 20px;
 }
 
+.Github{
+    width: 100px;
+    border-radius: 20px;
+}
+
 nav{
     float: left;
     padding: 10px;
@@ -83,6 +88,10 @@ nav li a:hover {
     background-color: pink;
 }
 
+#NombreMedia{
+    display: none;
+}
+
 h2{
     margin-bottom: 30px;
 }
@@ -116,4 +125,28 @@ p{
 
 #Descripcion{
     margin-bottom: 25px;
+}
+
+@media(max-width:375px){
+    .Contenido{
+        display: block;
+        width: 375px;
+    }
+
+    #NombreMedia{
+        display: block;
+    }
+
+    #Nombre{
+        display: none;
+    }
+
+    .Informacion{
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 50px ;
+        margin-right: 50px;
+        padding: 20px;
+        background-color: pink;
+    }
 }

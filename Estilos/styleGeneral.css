@@ -35,6 +35,11 @@ header{
     border-radius: 20px;
 }
 
+.Github{
+    width: 100px;
+    border-radius: 20px;
+}
+
 nav{
     float: left;
     padding: 10px;
@@ -104,4 +109,8 @@ h1{
 
 p{
     margin: 10px;
+}
+
+@media(max-width:375px){
+    
 }

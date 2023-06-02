@@ -35,6 +35,11 @@ header{
     border-radius: 20px;
 }
 
+.Github{
+    width: 100px;
+    border-radius: 20px;
+}
+
 nav{
     float: left;
     padding: 10px;
@@ -89,4 +94,17 @@ h1{
 
 p{
     margin: 10px;
+}
+
+@media (max-width: 375px) {
+
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 20px;
+        font-family: 'PT Sans', sans-serif;
+    }
 }

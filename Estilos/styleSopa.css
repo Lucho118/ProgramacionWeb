@@ -35,6 +35,10 @@ header{
     border-radius: 20px;
 }
 
+.Github{
+    width: 100px;
+}
+
 nav{
     float: left;
     padding: 10px;

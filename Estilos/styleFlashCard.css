@@ -35,6 +35,11 @@ header{
     border-radius: 20px;
 }
 
+.Github{
+    width: 100px;
+    border-radius: 20px;
+}
+
 nav{
     float: left;
     padding: 10px;
@@ -72,4 +77,10 @@ nav li a:hover {
 h2,p{
     color: white;
     font-family: 'PT Sans', sans-serif;
+}
+
+@media(max-width:375px){
+    .flashcard{
+        display: block;
+    }
 }
