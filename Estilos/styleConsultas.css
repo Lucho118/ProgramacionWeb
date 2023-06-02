@@ -107,3 +107,22 @@ h1{
 p{
     margin: 10px;
 }
+
+@media(max-width:375px){
+    .Contenido{
+        width: 375px;
+        margin: 0px;
+    }
+
+    .links li{
+        width: 375px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
